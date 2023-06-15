@@ -53,25 +53,26 @@ h1{
 }
 
 .bg1{
-    background-image: url(one\ piece.jpg);
+    background-image: url(images/one\ piece.jpg);
 }
 
 .bg2{
-    background-image: url(black\ clover.jpg);
+    background-image: url(images/black\ clover.jpg);
 }
 
 .bg3{
-    background-image: url(naruto.jpg);
+    background-image: url(images/naruto.jpg);
 }
 
 .bg4{
-    background-image: url(mha.jpg);
+    background-image: url(images/mha.jpg);
 }
 
 .txt{
     font-size: 1.5rem;
     padding: 0 10rem;
     margin: 5rem 0;
+    background-color: rgb(45,45,45);
 }
 
 .bg{
@@ -114,4 +115,6 @@ h2{
 .foot{
     display: flex;
     justify-content: center;
+    background-image: url(images/bottom.png);
+    color: white;
 }
