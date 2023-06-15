@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#wrapper{
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 10px;
+}
+
+.header{
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d;
+    z-index: -1;
+}
+
+.bg_img , .fr_img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    object-fit: cover;
+}
+
+.bg_img{
+    transform: translateZ(-40px) scale(6);
+}
+
+.fr_img{
+    transform: translateZ(-20px) scale(3);
+}
+
+h1{
+    position: absolute;
+    color: aliceblue;
+    text-shadow: 0 0 10px rgba(0,0,0.3);
+    top: 150px;
+    font-size: 8vw;
+    letter-spacing: 4px;
+}
+
+.footer{
+    z-index: 2;
+    color: mistyrose;
+    background-color: rgb(45,45,45);
+}
+
+.bg1{
+    background-image: url(one\ piece.jpg);
+}
+
+.bg2{
+    background-image: url(black\ clover.jpg);
+}
+
+.bg3{
+    background-image: url(naruto.jpg);
+}
+
+.bg4{
+    background-image: url(mha.jpg);
+}
+
+.txt{
+    font-size: 1.5rem;
+    padding: 0 10rem;
+    margin: 5rem 0;
+}
+
+.bg{
+    position: relative;
+    width: 100%;
+    background-attachment: fixed;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+
+h2{
+    position: absolute;
+    background-color: white;
+    padding: 0.5rem 2.5rem;
+    top: 50%;
+    left:50%;
+    transform: translateX(-50%) translateY(-50%);
+    border-radius: 25px;
+}
+
+.naruto_head{
+    background-color: rgb(229, 183, 96);
+}
+
+.op_head{
+    color: yellow;
+    background-color: rgb(119, 175, 8);
+}
+
+.bc_head{
+    color: black;
+}
+
+.mha_head{
+    background-color: rgb(223, 138, 78);
+    color: rgb(2, 92, 2);
+}
+
+.foot{
+    display: flex;
+    justify-content: center;
+}
