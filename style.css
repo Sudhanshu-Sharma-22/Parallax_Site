@@ -50,6 +50,7 @@ h1{
     z-index: 2;
     color: mistyrose;
     background-color: rgb(45,45,45);
+    border: 1px solid rgb(45,45,45);
 }
 
 .bg1{
